@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.web{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+    z-index: 1;
+}
+html{
+    background:'';
+}
+.btn_container{
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10PX;
+    border-radius: 100%;
+}
+.btn1{
+    background-color:navy;
+}
+.btn2{
+    background-color: red;
+}
+.btn3{
+    background-color: green;
+}
+.btn4{
+    background-color: gray;
+}
